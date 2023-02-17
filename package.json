@@ -1,0 +1,46 @@
+{
+  "name": "@domassistant/gateway-js",
+  "version": "4.10.0",
+  "description": "Dom Assistant Gateway JS client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js --exit",
+    "coverage": "nyc --reporter=lcov npm test",
+    "eslint-fix": "eslint . --fix",
+    "eslint": "eslint .",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check ."
+  },
+  "keywords": [
+    "dass",
+    "dom assistant",
+    "gateway",
+    "js",
+    "client"
+  ],
+  "author": "Pierre-Gilles Leymarie",
+  "license": "MIT",
+  "dependencies": {
+    "@ctrlpanel/pbkdf2": "^1.0.0",
+    "array-buffer-to-hex": "^1.0.0",
+    "auto-bind": "^2.1.0",
+    "axios": "^0.21.1",
+    "encode-utf8": "^1.0.2",
+    "hex-to-array-buffer": "^1.1.0",
+    "secure-remote-password": "^0.3.1",
+    "socket.io-client": "^4.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "mocha": "^10.1.0",
+    "nock": "^13.0.11",
+    "nyc": "^15.1.0",
+    "prettier": "^2.6.2",
+    "should": "^13.2.3",
+    "speakeasy": "^2.0.0"
+  }
+}
