@@ -1,6 +1,6 @@
 {
   "name": "@domassistant/gateway-js",
-  "version": "4.10.0",
+  "version": "4.0.1",
   "description": "Dom Assistant Gateway JS client",
   "main": "index.js",
   "scripts": {
